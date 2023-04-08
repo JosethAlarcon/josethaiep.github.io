@@ -1,0 +1,80 @@
+
+body {
+	margin:0; 
+	font-family: 'Vollkorn', serif;
+	background-color:white;
+}
+
+.cabecera{
+	background:black;
+	height:130px;
+	text-align:center;
+}
+
+.cabecera h1{
+	margin:0;
+	color:white;
+	padding-top:15px;	
+}
+
+.cabecera h2{
+	margin:0;
+	color:white;
+	padding-top:15px;	
+}
+
+.contenedor {
+	display:flex
+	height:580px;
+}
+
+.contenedor h1{
+	color:blue;
+}
+
+.contenedor h3{
+	color:#1483EA;
+}
+
+
+.menu {
+	background:#19d5e3;
+	width:20%;
+	height: 800px;
+}
+
+.content {
+	background:white;
+	width:90%;
+	padding-left:10px;
+}
+
+.imagen {
+	width: 150px;
+}
+
+ul li{
+	font-size:25px;
+	margin-top:15px;
+	margin-bottom:15px;
+	
+}
+
+ul li a{
+	text-decoration:none;
+	color:black;
+}
+
+ul li :hover{
+	background-color:orange;
+	color:white;
+}
+
+.active{
+	background-color:orange;
+	color:white !important;
+}
+
+ul{
+	list-style:none;
+}
